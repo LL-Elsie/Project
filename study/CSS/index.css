@@ -1,0 +1,52 @@
+/* index.css是用来美化首页的 */
+* {
+    margin: 0;
+    padding: 0;
+    /* 内减模式 */
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* 清除浮动 */
+.clearfix:before,.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+/* 版心 */
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 头部 */
+.header {
+    height: 42px;
+    background-color: pink;
+    margin: 30px auto;
+}
+
+h1 {
+    float: left;
+}
+
+/* 导航 */
+.nav {
+    float: left;
+    margin-left: 70px;
+    height: 42px;
+    background-color: green;
+}
+
