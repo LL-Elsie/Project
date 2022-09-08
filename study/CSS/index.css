@@ -49,4 +49,16 @@ h1 {
     height: 42px;
     background-color: green;
 }
+.nav li {
+    float: left;
+    margin-right: 26px;
+}
+.nav li a {
+    /* display: inline-block; */
+    display: block;
+    padding: 0 9px;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 2px solid #00a4ff;
+}
 
