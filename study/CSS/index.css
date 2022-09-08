@@ -47,7 +47,7 @@ h1 {
     float: left;
     margin-left: 70px;
     height: 42px;
-    background-color: green;
+    /* background-color: green; */
 }
 .nav li {
     float: left;
@@ -59,6 +59,14 @@ h1 {
     padding: 0 9px;
     height: 42px;
     line-height: 42px;
-    border-bottom: 2px solid #00a4ff;
+    /* border-bottom: 2px solid #00a4ff; */
+    font-size: 18px;
+    color: #050505;
 }
+
+.nav li a:hover {
+    border-bottom: 2px solid #00a4ff;
+
+}
+
 
