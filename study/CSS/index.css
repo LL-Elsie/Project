@@ -78,8 +78,9 @@ h1 {
 }
 
 .search input {
+    float: left;
     padding-left: 20px;
-    width: 362px;
+    width: 360px;
     height: 38px;
     border: 0;
 }
@@ -89,4 +90,11 @@ h1 {
     color: #bfbfbf;
 }
 
+.search button {
+    float: left;
+    width: 50px;
+    height: 40px;
+    background-image: url(../images/btn.png);
+    border: 0;
+}
 
