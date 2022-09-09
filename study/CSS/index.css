@@ -34,7 +34,7 @@ body {
 /* 头部 */
 .header {
     height: 42px;
-    background-color: pink;
+    /* background-color: pink; */
     margin: 30px auto;
 }
 
@@ -96,5 +96,18 @@ h1 {
     height: 40px;
     background-image: url(../images/btn.png);
     border: 0;
+}
+
+.user {
+    float: right;
+    /* width: 118px; */
+    height: 42px;
+    margin-right: 35px;
+    line-height: 42px;
+}
+
+.user img {
+    /* 调节图片垂直对齐方式：middle:居中 */
+    vertical-align: middle;
 }
 
