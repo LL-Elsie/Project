@@ -197,3 +197,23 @@ h1 {
     line-height: 40px;
 }
 
+/* 精品推荐 */
+.goods {
+    margin-top: 8px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 2px 3px 0px 
+		rgba(118, 118, 118, 0.2);
+}
+.goods h2 {
+    float: left;
+}
+
+.goods ul {
+    float: left;
+}
+
+.goods .xingqu {
+    float: right;
+}
+
