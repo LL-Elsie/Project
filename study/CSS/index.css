@@ -240,3 +240,14 @@ h1 {
     color: #00a4ff;
 }
 
+/* 精品课程 */
+.box {
+    margin-top: 35px;
+
+}
+
+.box .title {
+    height: 40px;
+    background-color: pink;
+}
+
