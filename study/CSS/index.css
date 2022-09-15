@@ -270,10 +270,26 @@ h1 {
     margin-bottom: 15px;
     width: 228px;
     height: 270px;
-    background-color: pink;
+    background-color: #fff;
 }
 
 .box .content li:nth-child(5n) {
     margin-right: 0%;
+}
+
+.box .content li h3 {
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #050505;
+}
+
+.box .content li p {
+    padding: 0 20px;
+    font-size: 12px;
+    color: #999999;
+}
+.box .content li span {
+    color: #ff7c2d;
 }
 
