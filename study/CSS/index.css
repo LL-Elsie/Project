@@ -299,3 +299,11 @@ h1 {
     height: 417px;
     background-color: #fff;
 }
+
+.footer .left {
+    float: left;
+}
+
+.footer  .right {
+    float: right;
+}
