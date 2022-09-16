@@ -293,3 +293,9 @@ h1 {
     color: #ff7c2d;
 }
 
+/* 版权 */
+.footer {
+    margin-top: 40px;
+    height: 417px;
+    background-color: #fff;
+}
