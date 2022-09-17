@@ -296,12 +296,31 @@ h1 {
 /* 版权 */
 .footer {
     margin-top: 40px;
+    padding-top: 30px;
     height: 417px;
     background-color: #fff;
 }
 
 .footer .left {
     float: left;
+
+}
+
+.footer .left p {
+    margin: 20px 0 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer .left a {
+    display: inline-block;
+    width: 120px;
+    height: 36px;
+    border: 1px solid #00a4ff;
+    font-size: 16px;
+    color: #00a4ff;
+    text-align: center;
+    line-height: 36px;
 }
 
 .footer  .right {
