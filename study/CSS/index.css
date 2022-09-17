@@ -42,13 +42,15 @@ h1 {
     float: left;
 }
 
-/* 导航 */
+/* 导航区域 */
 .nav {
     float: left;
     margin-left: 70px;
     height: 42px;
     /* background-color: green; */
 }
+
+/*li默认是换行排列，若要使其在一行排列，则需要设置浮动  */
 .nav li {
     float: left;
     margin-right: 26px;
@@ -64,9 +66,9 @@ h1 {
     color: #050505;
 }
 
+/* 伪类选择器：选中鼠标悬停在元素上的状态，设置样式 */
 .nav li a:hover {
     border-bottom: 2px solid #00a4ff;
-
 }
 /* 搜索区域 */
 .search {
@@ -76,7 +78,6 @@ h1 {
     height: 40px;
     border: 1px solid #00a4ff;
 }
-
 .search input {
     float: left;
     padding-left: 20px;
@@ -89,7 +90,7 @@ h1 {
     font-size: 14px;
     color: #bfbfbf;
 }
-
+/* 搜索区域的搜索按钮 */
 .search button {
     float: left;
     width: 50px;
@@ -97,7 +98,7 @@ h1 {
     background-image: url(../images/btn.png);
     border: 0;
 }
-
+/* 用户区域 */
 .user {
     float: right;
     /* width: 118px; */
@@ -110,6 +111,7 @@ h1 {
     /* 调节图片垂直对齐方式：middle:居中 */
     vertical-align: middle;
 }
+
 .banner {
     height: 420px;
     background-color: #1c036c;
