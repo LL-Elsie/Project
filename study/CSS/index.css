@@ -326,3 +326,18 @@ h1 {
 .footer  .right {
     float: right;
 }
+
+.footer .right dl {
+    float: left;
+    margin-left: 120px;
+}
+
+.footer .right dl dt {
+    font-size: 16px;
+    color: #333333;
+}
+
+.footer .right dl a {
+    font-size: 12px;
+    color: #333333;
+}
