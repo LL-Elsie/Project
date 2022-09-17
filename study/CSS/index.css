@@ -72,7 +72,7 @@ h1 {
 .search {
     float: left;
     margin-left: 59px;
-    width: 412px;
+    /* width: 412px; */
     height: 40px;
     border: 1px solid #00a4ff;
 }
