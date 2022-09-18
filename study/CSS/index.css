@@ -121,6 +121,8 @@ h1 {
     height: 420px;
     background-image: url(../images/banner.png);
 }
+
+/* 左分类区域 */
 .banner .left {
     float: left;
     padding: 0 20px;
@@ -143,6 +145,7 @@ h1 {
     color: #00b4ff;
 }
 
+/* 右分类区域 */
 .banner .right {
     float: right;
     margin-top: 50px;
