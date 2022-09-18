@@ -129,7 +129,7 @@ h1 {
     width: 190px;
     height: 420px;
     background-color: rgba(0,0,0,0.3);
-
+    /* 行高属于控制文字的属性，能继承 */
     line-height: 45px;
 }
 
