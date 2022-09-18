@@ -202,7 +202,7 @@ h1 {
     line-height: 40px;
 }
 
-/* 精品推荐 */
+/* 精品推荐导航 */
 .goods {
     margin-top: 8px;
     padding-left: 34px;
@@ -213,7 +213,6 @@ h1 {
 		rgba(118, 118, 118, 0.2);
     
         line-height: 60px;
-
 }
 .goods h2 {
     float: left;
@@ -245,7 +244,7 @@ h1 {
     color: #00a4ff;
 }
 
-/* 精品课程 */
+/* 精品推荐课程 */
 .box {
     margin-top: 35px;
 
@@ -298,7 +297,7 @@ h1 {
     color: #ff7c2d;
 }
 
-/* 版权 */
+/* 版权区域 */
 .footer {
     margin-top: 40px;
     padding-top: 30px;
@@ -306,6 +305,7 @@ h1 {
     background-color: #fff;
 }
 
+/* footer模块左区域 */
 .footer .left {
     float: left;
 
@@ -328,6 +328,7 @@ h1 {
     line-height: 36px;
 }
 
+/* footer模块右区域 */
 .footer  .right {
     float: right;
 }
