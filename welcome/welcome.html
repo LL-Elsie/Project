@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到Web前端开发学堂！</title>
+    <style>
+        /* 定义标签选择器body的样式规则 */
+        body {
+            background: #f2f2f2;
+            /* 所有元素居中对齐 */
+            text-align: center;
+        }
+
+        img {
+            margin-top: 200px;
+            width: 200px;
+            height: 200px;
+            border: 10px solid #999;
+            border-radius: 50%;
+        }
+
+        .titl {
+            font-family: "方正大黑简体";
+            font-size: 60px;
+            color: #333;
+            /* 为文字添加阴影，x方向向右偏移5px，y方向向下偏移5px，模糊大小为10px，阴影颜色为深灰色 */
+            text-shadow: 5px 5px 10px #666;
+
+            /* 调用 movelefttoright 动画，应用到<p>标签上，形成1s内从左侧匀速移动到右侧且逐渐显示的效果*/
+            animation: movelefttoright 1s linear;
+            margin-top: 20px;
+        }
+        /* 定义movelefttoright 的关键帧动画 */
+        @keyframes movelefttoright {
+            0% {
+                transform: translateX(-80px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0px);
+                opacity: 100%;
+            }
+        }
+
+        #enter {
+            font-size: 24px;
+            color: #333;
+            border: 1px solid #333;
+            border-radius: 3px;
+            padding: 10px 100px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <img src="./images/5.jpg" alt="">
+    <p class="titl">走进Web前端开发</p>
+    <a href="index.html" id="enter">开始学习</a>
+    <script>
+        var enter = document.getElementById("enter");
+        enter.onclick = function(e) {
+            e.preventDefault();
+            enter.innerHTML = "欢迎进入";
+            enter.style.color = "#ffffff";
+            enter.style.background = "#333333";
+            enter.style.borderColor = "#333333";
+        }
+    </script>
+</body>
+</html>
