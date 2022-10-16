@@ -49,6 +49,11 @@ a {
     color: #333;
 }
 
+/* 设置 img 的垂直对齐方式为居中对齐，去除 img 默认下间隙 */
+img {
+    vertical-align: middle;
+}
+
 /* 去除 input 默认样式 */
 input {
     border: none;
