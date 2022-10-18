@@ -13,9 +13,20 @@
 
 .shortcut .wrapper {
     height: 52px;
-    background-color: pink;
 }
 
 .shortcut .wrapper ul {
     float: right;
+}
+
+.shortcut .wrapper li {
+    float: left;
+    line-height: 52px;
+}
+
+.shortcut .wrapper a {
+    padding: 0 16px;
+    border-right: 1px solid #666;
+    font-size: 14px;
+    color: #dcdcdc;
 }
