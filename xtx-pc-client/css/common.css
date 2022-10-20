@@ -42,6 +42,7 @@
     /* 图与字对齐 */
     vertical-align: middle;
 }
+
 /* 去掉最右边的边框 */
 .shortcut .wrapper li:nth-child(7) a{
     border-right: 0;
