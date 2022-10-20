@@ -47,3 +47,9 @@
 .shortcut .wrapper li:nth-child(7) a{
     border-right: 0;
 }
+
+/* 头部区域 */
+.header {
+    height: 70px;
+    background-color: pink;
+}
