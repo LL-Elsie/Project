@@ -80,11 +80,18 @@
     float: left;
     margin-left: 40px;
     height: 70px;
-    background-color: green;
 }
 
 .nav li {
     float: left;
+    margin-right: 48px;
+    line-height: 70px;
+}
+
+.nav li a:hover {
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+
 }
 
 .search {
