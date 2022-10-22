@@ -50,6 +50,7 @@
 
 /* 头部区域 */
 .header {
+    margin: 30px auto;
     height: 70px;
     background-color: pink;
 }
