@@ -127,11 +127,27 @@
 }
 
 .car {
+    position: relative;
     float: left;
+    margin-top: 28px;
     margin-left: 15px;
     width: 23px;
     height: 23px;
-    background-color: skyblue;
     background-image: url(../images/sprites.png);
     background-position: -119px -69px;
+}
+
+.car span {
+    position: absolute;
+    right: -13px;
+    top: -8px;
+    width: 20px;
+    height: 15px;
+    background-color: #e26237;
+    border-radius: 8px;
+
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
 }
