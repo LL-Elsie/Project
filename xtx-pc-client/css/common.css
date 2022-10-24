@@ -132,4 +132,6 @@
     width: 23px;
     height: 23px;
     background-color: skyblue;
+    background-image: url(../images/sprites.png);
+    background-position: -119px -69px;
 }
