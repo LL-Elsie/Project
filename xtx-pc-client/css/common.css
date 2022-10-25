@@ -162,3 +162,45 @@
 .footer .wrapper {
     width: 1393px;
 }
+
+.footer .top {
+    padding-top: 59px;
+    padding-left: 135px;
+    height: 175px;
+    border-bottom: 3px solid #434343;
+}
+
+.footer .top li {
+    position: relative;
+    float: left;
+    margin-right: 300px;
+    width: 195px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.footer .top li:last-child {
+    margin-right: 0;
+}
+
+.footer .top li::before {
+    /* 伪元素添加标签则为行内元素 */
+    /* display: inline-block; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/sprites.png);
+
+    vertical-align: middle;
+
+}
+
+.footer .top li span {
+    margin-left: 77px;
+    font-size: 28px;
+    color: #fff;
+}
+
