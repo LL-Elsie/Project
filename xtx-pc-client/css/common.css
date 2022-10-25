@@ -119,7 +119,7 @@
     position: absolute;
     left: 2px;
     top: 0;
-    display: inline-block;
+    /* display: inline-block; */
     width: 18px;
     height: 18px;
     background-image: url(../images/sprites.png);
@@ -138,6 +138,7 @@
 }
 
 .car span {
+    /* 绝对定位，盒子会具备行内块特点 */
     position: absolute;
     right: -13px;
     top: -8px;
@@ -150,4 +151,14 @@
     color: #fff;
     text-align: center;
     line-height: 15px;
+}
+
+/* 版权区域 */
+.footer {
+    height: 342px;
+    background-color: #333;
+}
+
+.footer .wrapper {
+    width: 1393px;
 }
