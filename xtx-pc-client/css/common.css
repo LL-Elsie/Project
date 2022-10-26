@@ -183,6 +183,7 @@
     margin-right: 0;
 }
 
+
 /* 伪元素添加标签则为行内元素 */
 /* 如果行内块和行内文字无法通过vertical-align 或者行高去对齐，就进行定位 */
 .footer .top li::before {
@@ -204,6 +205,7 @@
     font-size: 28px;
     color: #fff;
 }
+
 
 /* 第二个li里面的before添加背景图位置属性 */
 .footer .top li:nth-child(2)::before {
