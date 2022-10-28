@@ -30,5 +30,18 @@
 .banner .aside a {
     /* block 宽度和父级一致 */
     display: block;
+    padding-left: 36px;
+    padding-right: 19px;
     height: 50px;
+
+    color: #fff;
+}
+
+.banner .aside a span {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.banner .aside a:hover {
+    background-color: #27ba9b;
 }
