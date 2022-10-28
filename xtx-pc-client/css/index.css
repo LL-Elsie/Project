@@ -7,6 +7,28 @@
 }
 
 .banner .wrapper {
+    position: relative;
     height: 500px;
     background-color: pink;
+}
+
+/* 侧导航 */
+.banner .aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 500px;
+    background-color: rgba(0,0,0,.8);
+}
+
+.banner .aside li {
+    height: 50px;
+    line-height: 50px;
+}
+
+.banner .aside a {
+    /* block 宽度和父级一致 */
+    display: block;
+    height: 50px;
 }
