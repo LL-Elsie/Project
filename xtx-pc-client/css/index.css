@@ -1,1 +1,12 @@
 /* 放 index 页面的样式表 */
+
+/* banner */
+.banner {
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.banner .wrapper {
+    height: 500px;
+    background-color: pink;
+}
