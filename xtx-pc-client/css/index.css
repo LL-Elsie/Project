@@ -28,6 +28,7 @@
 }
 
 .banner .aside a {
+    position: relative;
     /* block 宽度和父级一致 */
     display: block;
     padding-left: 36px;
@@ -44,4 +45,16 @@
 
 .banner .aside a:hover {
     background-color: #27ba9b;
+}
+
+/* a的里面最后的位置加箭头 */
+.banner .aside a::after {
+    position: absolute;
+    right: 19px;
+    top: 19px;
+    content: '';
+    width: 6px;
+    height: 11px;
+    background-image: url(../images/sprites.png);
+    background-position: -80px -110px;
 }
