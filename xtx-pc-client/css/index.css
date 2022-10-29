@@ -86,3 +86,26 @@
     right: 10px;
     background-position: -23px -60px;
 }
+
+/* 圆点样式 */
+.banner ol {
+    position: absolute;
+    left: 680px;
+    bottom: 30px;
+    width: 200px;
+    height: 10px;
+}
+
+.banner ol li {
+    float: left;
+    margin-right: 24px;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.banner ol .current {
+    background-color: #fff;
+}
