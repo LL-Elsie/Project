@@ -58,3 +58,22 @@
     background-image: url(../images/sprites.png);
     background-position: -80px -110px;
 }
+
+/* 箭头部分 */
+.prev,
+.next {
+    position: absolute;
+    top: 228px;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+.prev {
+    left: 260px;
+}
+
+.next {
+    right: 10px;
+}
