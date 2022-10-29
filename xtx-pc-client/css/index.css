@@ -67,13 +67,22 @@
     width: 45px;
     height: 45px;
     background-color: rgba(0, 0, 0, .2);
+    background-image: url(../images/sprites.png);
     border-radius: 50%;
 }
 
+/* 背景图位置负责两件事：改变箭头在盒子里面的位置；改变精灵图的位置 */
+/* 导致在精灵图中测量的尺寸不准确 */
+/* 解决方案：
+   1、书写背景图位置属性，借助谷歌的调试工具调试具体的位置数值
+   2、书写标签时，a负责盒子，里面再去添加一个 span 标签负责箭头
+*/
 .prev {
     left: 260px;
+    background-position: 14px -60px;
 }
 
 .next {
     right: 10px;
+    background-position: -23px -60px;
 }
