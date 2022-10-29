@@ -92,7 +92,6 @@
     position: absolute;
     left: 680px;
     bottom: 30px;
-    width: 200px;
     height: 10px;
 }
 
@@ -108,4 +107,39 @@
 
 .banner ol .current {
     background-color: #fff;
+}
+
+/* 新鲜好物 */
+.goods .hd {
+    height: 114px;
+    line-height: 114px;
+}
+
+.goods .hd h2 {
+    float: left;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.goods .hd h2 span {
+    margin-left: 34px;
+    font-size: 16px;
+    color: #999;
+}
+
+
+.goods .hd a {
+    float: right;
+    color: #999;
+}
+
+.goods .hd a::after {
+    content: '';
+    display: inline-block;
+    margin-left: 13px;
+    width: 7px;
+    height: 13px;
+    background-image: url(../images/sprites.png);
+    background-position: 0 -110px;
+    vertical-align: middle;
 }
