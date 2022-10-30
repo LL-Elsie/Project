@@ -129,12 +129,14 @@
 }
 
 
-.goods .hd a {
+.goods .hd a,
+.fresh .hd .more {
     float: right;
     color: #999;
 }
 
-.goods .hd a::after {
+.goods .hd a::after,
+.fresh .hd .more::after {
     content: '';
     display: inline-block;
     margin-left: 13px;
@@ -196,11 +198,47 @@
     line-height: 24px;
 }
 
-
-
-
 .goods .bd li .note {
     font-size: 16px;
     color: #999;
 }
 
+/* 生鲜 */
+
+.fresh .hd {
+    height: 96px;
+    line-height: 96px;
+}
+
+.fresh .hd h2 {
+    float: left;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.fresh .hd .more {
+    float: right;
+}
+
+.fresh .hd ul {
+    float: right;
+    margin-right: 58px;
+}
+
+.fresh .hd ul li {
+    float: left;
+}
+
+.fresh .hd li a {
+    padding: 2px 7px;
+    margin-left: 6px;
+}
+
+.fresh .hd li a:hover {
+    background-color: #27ba9b;
+    color: #fff;
+}
+
+.fresh .bd {
+
+}
