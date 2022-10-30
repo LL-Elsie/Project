@@ -239,6 +239,77 @@
     color: #fff;
 }
 
-.fresh .bd {
+.fresh .bd .left {
+    float: left;
+    width: 240px;
+    height: 610px;
+    background-color: pink;
+}
 
+.fresh .bd .right {
+    float: right;
+    width: 1000px;
+    height: 610px;
+}
+
+.fresh .bd .right li {
+    position: relative;
+    float: left;
+    width: 242px;
+    height: 304px;
+    margin-left: 8px;
+    padding: 0 29px;  
+}
+
+.fresh .bd .right li:nth-child(n+5) {
+    margin-top: 3px;
+}
+
+.fresh .bd .right img {
+    width: 184px;
+    height: 178px;
+}
+
+.fresh .bd .right a {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fresh .bd .right h3 {
+    margin-top: 12px;
+    font-weight: 400;
+}
+
+.fresh .bd .right p {
+    margin-top: 3px;
+    color: #9a2e1f;
+    font-size: 17px;
+}
+
+.fresh .bd .right span {
+    font-size: 23px;
+
+}
+
+.fresh .bd .right li:hover {
+    border: 1px solid #27ba9b;
+}
+.fresh .bd .right .seek{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-top: 19px;
+    width: 20px;
+    height: 80px;
+    background-color: #27ba9b; 
+    font-size: 5;
+    text-align: center;
+    transition: all 1s;
+    color: #f5f5f5;
+    
+}
+.fresh .bd .right .seek:hover{
+    font-size: 15px;
+    width: 240px;
 }
