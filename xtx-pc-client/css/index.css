@@ -146,6 +146,7 @@
 }
 
 .goods .bd li {
+    position: relative;
     float: left;
     margin-right: 8px;
     width: 304px;
@@ -179,4 +180,18 @@
 
 .goods .bd li div span {
     font-size: 23px;
+}
+
+.goods .bd li b {
+    position: absolute;
+    left: 17px;
+    top: 18px;
+    width: 28px;
+    height: 51px;
+    font-size: 18px;
+    color: #27ba9b;
+    border: 1px solid #27ba9b;
+    border-radius: 5px;
+    font-weight: 400;
+    line-height: 24px;
 }
