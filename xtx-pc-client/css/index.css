@@ -147,7 +147,36 @@
 
 .goods .bd li {
     float: left;
+    margin-right: 8px;
     width: 304px;
     height: 405px;
     background-color: #f0f9f4;
+
+    text-align: center;
+}
+
+.goods .bd li:last-child {
+    margin-right: 0;
+}
+
+.goods .bd li img {
+    width: 304px;
+
+}
+
+.goods .bd li h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.goods .bd li div {
+    font-size: 17px;
+    color: #9a2e1f;
+
+}
+
+.goods .bd li div span {
+    font-size: 23px;
 }
