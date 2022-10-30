@@ -117,6 +117,7 @@
 
 .goods .hd h2 {
     float: left;
+    height: 114px;
     font-size: 29px;
     font-weight: 400;
 }
@@ -142,4 +143,11 @@
     background-image: url(../images/sprites.png);
     background-position: 0 -110px;
     vertical-align: middle;
+}
+
+.goods .bd li {
+    float: left;
+    width: 304px;
+    height: 405px;
+    background-color: #f0f9f4;
 }
