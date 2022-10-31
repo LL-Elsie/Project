@@ -76,6 +76,7 @@
     font-size: 0;
 }
 
+/* 头部区域---导航 */
 .nav {
     float: left;
     margin-left: 40px;
@@ -88,12 +89,17 @@
     line-height: 70px;
 }
 
+.nav li a {
+    padding-bottom: 7px;
+}
+
 .nav li a:hover {
     color: #27ba9b;
     border-bottom: 1px solid #27ba9b;
 
 }
 
+/* 头部区域---搜索框 */
 .search {
     position: relative;
     float: left;
@@ -126,6 +132,7 @@
     background-position: -79px -69px;
 }
 
+/* 头部区域---购物车 */
 .car {
     position: relative;
     float: left;
