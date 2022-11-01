@@ -161,15 +161,17 @@
 }
 
 /* 版权区域 */
+
+/* 版权区域--通栏盒子 */
 .footer {
     height: 342px;
     background-color: #333;
 }
-
+/* 版权区域--单独设置版心宽度 */
 .footer .wrapper {
     width: 1393px;
 }
-
+/* 版权区域--上区域 */
 .footer .top {
     padding-top: 59px;
     padding-left: 135px;
@@ -224,6 +226,7 @@
     background-position: -64px 0;
 }
 
+/* 版权区域--下区域 */
 .footer .bottom {
     padding-top: 40px;
     font-size: 14px;
