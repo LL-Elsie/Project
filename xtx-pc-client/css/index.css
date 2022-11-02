@@ -111,7 +111,7 @@
     background-color: #fff;
 }
 
-/* 新鲜好物 */
+/* 新鲜好物模块--标题区域 */
 .goods .hd {
     height: 114px;
     line-height: 114px;
@@ -149,6 +149,7 @@
     vertical-align: middle;
 }
 
+/* 新鲜好物模块---内容区域 */
 .goods .bd li {
     position: relative;
     float: left;
