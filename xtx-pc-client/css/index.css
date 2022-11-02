@@ -206,7 +206,7 @@
     color: #999;
 }
 
-/* 生鲜 */
+/* 生鲜模块---标题 */
 
 .fresh .hd {
     height: 96px;
@@ -242,6 +242,7 @@
     color: #fff;
 }
 
+/* 生鲜模块---内容 */
 .fresh .bd .left {
     float: left;
     width: 240px;
