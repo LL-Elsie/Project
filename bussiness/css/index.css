@@ -1,0 +1,330 @@
+/* 每一个页面中都会包含一些公共代码 */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+/* 实际开发中，上面取消默认间距的代码会被下面代码替换掉 */
+body,html,p,h1,h2,h3,h4,h5,h6,input,form,select,textarea,ol,ul,li,dl,dt,dd {
+    margin: 0;
+    padding: 0;
+}
+/* 解决图片下面有留白问题 */
+img {
+    display: block;
+}
+
+/* 取消描边 */
+input {
+    outline: none;
+    /* 取消默认边框 */
+    border: none;
+}
+
+/* 设置公共的版心 */
+.public {
+    width: 964px;
+    margin: 0 auto;
+}
+/* 取消列表项样式 */
+ul,ol,li {
+    list-style: none;
+}
+/* 取消超链接下划线 */
+a {
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+
+/* 问题：border:none和border:0之间的区别
+        二者都能取消边框，但是none是没有、不设置的意思；0代表的是有值，只是值为0
+        浏览器渲染的时候，border:0;会被加载渲染
+            border:none;不会被加载渲染
+*/
+
+
+/* loogo区域 */
+.logo {
+    /* width: 964px; */
+    height: 100px;
+    /* 版心居中 */
+    /* margin: 0 auto; */
+}
+
+.logo>img {
+    float: left;
+    /* 不会作用在父元素身上，因为触发了BFC */
+    margin-top: 32px;
+}
+
+.logo>input {
+    float: right;
+    width: 226px;
+    height: 28px;
+    border: 1px solid gray;
+    margin-top: 40px;
+    /* background-color: #f1f1f1; */
+    /* 插入背景图片 */
+    /* background-image: url(../img/find.png);
+    background-repeat: no-repeat;
+    background-position: right center;  */
+    background: #f1f1f1 url(../img/find.png) no-repeat right center;
+    font-size: 14px;
+    text-indent: 14px;
+}
+
+/* 通栏导航区域 */
+.layoutNav {
+    height: 60px;
+    background-color: #313131;
+}
+
+.nav {
+    /* width: 964px; */
+    height: 60px;
+    /* margin: 0 auto; */
+}
+
+.nav>li {
+    float: left;
+    font-size: 14px;
+    color: white;
+    line-height: 60px;
+    width: 119px;
+    text-align: center;
+    border-right: 1px solid #4a4a4a;
+}
+
+.nav>.eight {
+    border-right: 0px;
+}
+
+/* 划过效果 */
+.nav>li:hover {
+    background-color: slateblue;
+}
+
+/* banner轮播图区域 */
+.banner>img {
+    width: 100%;
+}
+
+/* 内容区域 */
+.news {
+    height: 242px;
+}
+
+/* 公司新闻区域 */
+/* 提取一部分公共代码 */
+.news>div {
+    height: 242px;float: left;
+}
+.news>.lef {
+    width: 482px;
+}
+
+.news>.cen {
+    width: 240px;
+    background-color: #f1f1f1;
+}
+.news>.rig {
+    width: 242px;
+    background-color: #fbfbfb;
+    /* 插入背景图片 */
+    background: url(../img/horse.png) no-repeat center bottom;
+}
+.news>div>.pTit {
+    /* 上边间距和下边间距 */
+    margin-top: 34px;
+    margin-bottom: 22px;
+    color: #414550;
+    font-size: 20px;
+}
+
+.news>.lef>ul {
+    font-size: 14px;
+    line-height: 24px;
+    color: #8a8a8a;
+}
+.news>.lef span {
+    float: right;
+    margin-right: 28px;
+}
+
+.news>.lef li {
+    background: url(../img/dian.png) no-repeat 0 center;
+    text-indent: 14px;
+}
+
+/* 单独实现缩进样式 */
+.news>.cen>.pTit {
+    text-indent: 20px;
+}
+.news>.rig>.pTit {
+    text-indent: 20px;
+}
+
+
+/* 公司介绍区域的p标签样式 */
+.news>.cen>.p1 {
+    width: 132px;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 10px;
+    color: #777777;
+}
+
+
+.news>.cen>.p2 {
+    width: 194px;
+    margin-left: 20px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #777777;
+    margin-top: 15px;
+}
+/* 人才招聘区域设置 */
+.news>.rig>.p1 {
+    font-size: 12px;
+    line-height: 24px;
+    margin-left: 22px;
+    margin-right: 40px;
+    color: #5a5a5a;
+}
+
+
+/* 市场项目区域 */
+.market {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #414550;
+}
+
+/* 市场项目内容区域 */
+.marketinfo {
+    height: 240px;
+}
+
+.marketinfo>div {
+    width: 210px;
+    height: 240px;
+    float: left;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #4e4e4e;
+
+}
+
+.marketinfo>.last {
+    margin-right: 0px;
+}
+
+.marketinfo>div>p {
+    margin-top: 12px;
+}
+
+/* 产品中心区域 */
+.layoutPro {
+    height: 250px;
+    background-color: #e5e5e5;
+}
+
+.product {
+    height: 250px;
+}
+
+/* 左侧中间以及右侧布局 */
+/* 提取公共代码 */
+.product>div {
+    height: 250px;
+    float: left;
+}
+.product>.lef {
+    width: 452px;
+
+}
+
+.product>.cen {
+    width: 152px;
+    margin: 0 52px;
+}
+
+.product>.rig {
+    width: 256px;
+}
+
+/* 左侧布局大小 */
+.product .top {
+    /* 边框 */
+    border-bottom: 1px solid gray;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-indent: 12px;
+    color: #656565;
+}
+
+.product>.lef ul {
+    width: 150px;
+    float: left;
+    margin-top: 14px;
+    color: #767676;
+    font-size: 12px;
+    line-height: 24px;
+    text-indent: 14px;
+
+}
+
+/* 中间区域设置 */
+.product>.cen ul {
+    margin-top: 14px;
+    color: #767676;
+    font-size: 12px;
+    line-height: 24px;
+    text-indent: 14px;
+}
+
+/* 网站底部区域 */
+.botNav {
+    height: 82px;
+}
+
+.botNav>.lef {
+    float: left;
+    margin-top: 22px;
+}
+
+.botNav>.rig {
+    float: right;
+    font-size: 12px;
+    color: #8a8a8a;
+    margin-top: 28px;
+
+}
+
+.botNav span {
+    color: gray;
+    font-size: 12px;
+}
+
+.botNav>.rig>img {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
